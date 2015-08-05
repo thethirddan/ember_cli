@@ -1,0 +1,9 @@
+<h1>Posts</h1>
+
+<ul class="list-unstyled">
+  {{#each post in model}}
+    <li>{{post.title}}</li>
+  {{else}}
+    <li>Sorry, no posts are here...</li>
+  {{/each}}
+</ul>
