@@ -26,7 +26,7 @@ var posts = [
     title: 'Bananas',
     author: 1,
     date: new Date(2015,8,6,6,0,0),
-    body: 'sword swrod soweroefk wofdf'
+    body: 'sword swrod *soweroefk* wofdf'
   },
   {
     id: 2,
